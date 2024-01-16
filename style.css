@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ecf2ff;
+  font-family: "Hanken Grotesk";
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  background-color: #fff;
+  width: 736px;
+  border-radius: 32px;
+  box-shadow: 0px 30px 60px 0px;
+}
+.purple-container {
+  padding-top: 38px;
+  width: 368px;
+  background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+  border-radius: 32px;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  color: #cac9ff;
+  font-size: 24px;
+  font-weight: 700;
+}
+.oval {
+  position: relative;
+  text-align: center;
+  margin-top: 35px;
+}
+.oval-img {
+  position: relative;
+  text-align: center;
+}
+.inside-oval {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.inside-oval h1 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 72px;
+}
+.inside-oval span {
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.5168;
+  color: #cac9ff;
+  margin-top: 4px;
+}
+.purple-container h2 {
+  font-size: 32px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 28px;
+}
+.purple-container p {
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  text-align: center;
+  margin-top: 14px;
+  color: #cac9ff;
+  padding: 0 54px 55px;
+}
+.summary-container {
+  padding: 38px 40px 46px;
+  color: #303b59;
+}
+.summary-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.summary-boxes {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.summary-box {
+  width: 288px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  padding: 17px 16px 18px;
+  justify-content: space-between;
+}
+#sumbox1 {
+  background: var(
+    --red-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #f55
+  );
+}
+#sumbox2 {
+  background: var(
+    --yellow-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #ffb21e
+  );
+}
+#sumbox3 {
+  background: var(
+    --green-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #00bb8f
+  );
+}
+#sumbox4 {
+  background: var(
+    --blue-95-white,
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95) 0%,
+      rgba(255, 255, 255, 0.95) 100%
+    ),
+    #1125d6
+  );
+}
+button {
+  background: linear-gradient(180deg, #75f 0%, #6943ff 0.01%, #2f2ce9 100%);
+  width: 288px;
+  height: 56px;
+  display: flex;
+  border-radius: 128px;
+  color: #fff;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-top: 41px;
+}
+.summary-boxes div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.from-100 {
+  opacity: 0.5;
+}
+.summary-container p {
+  font-weight: 700;
+}
+.text {
+  font-weight: 500;
+}
+#sumbox1 div .text {
+  color: #f55;
+}
+#sumbox2 div .text {
+  color: #ffb21e;
+}
+#sumbox3 div .text {
+  color: #00bb8f;
+}
+#sumbox4 div .text {
+  color: #1125d6;
+}
